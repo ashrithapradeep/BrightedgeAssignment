@@ -1,6 +1,6 @@
 // src/api.js
 export async function fetchCruxData(url) {
-  const apiKey = "AIzaSyAYk6xdFkMuqRrpsNMzFwtn0xihzLkuxzw"; // Replace with actual key
+  const apiKey = ""; //ADD YOUR API KEY HERE
   const endpoint = `https://chromeuxreport.googleapis.com/v1/records:queryRecord?key=${apiKey}`;
   const response = await fetch(endpoint, {
     method: "POST",
